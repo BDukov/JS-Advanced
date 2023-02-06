@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "name": "13.unit-testing-and-error-handling",
+  "version": "1.0.0",
+  "main": "test",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha isSymmetric.test.js"
+  },
+  "author": "BD",
+  "license": "MIT",
+  "description": ""
+}
