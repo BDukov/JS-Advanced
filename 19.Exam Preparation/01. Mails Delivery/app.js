@@ -31,7 +31,7 @@ function solve() {
                     </div>`;
 
 
-        element.querySelector('#delete').addEventListener('click', deleteMail);
+        element.querySelector('#delete').addEventListener('click', delete Mail);
         element.querySelector('#send').addEventListener('click', sendMail);
 
         list.appendChild(element);
