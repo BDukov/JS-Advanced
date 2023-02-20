@@ -105,13 +105,11 @@ function solve() {
 
                 tnkBtn.addEventListener('click', (e) => {
                     e.preventDefault();
-                    thanks.remove();
-                    const main = document.getElementById('main');
-                    main.style.display = 'block';
-                    nextStepBtn.disabled = false;
+                    location.reload();
                 });
+                body.appendChild(element);
+                body.appendChild(tnkBtn);
 
-                element.appendChild(thanks);
             });
 
         });
